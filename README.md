@@ -88,3 +88,19 @@ const int wetValue = 235;
 ```
 
 The higher raw value indicates dry soil while a low raw value indicates wet soil.
+
+
+##  Code
+
+Once all hardware is assembled, upload the Arduino sketch using the Arduino IDE.
+
+After uploading:
+
+1. Power the Arduino.
+2. Connect the 12V adapter to the pump.
+3. Place the soil moisture sensor into the plant’s soil.
+4. Put the pump into a container filled with water.
+5. Run the tube from the pump to the plant.
+6. Set the system to **Automatic mode**.
+
+The system will now automatically water the plant whenever the soil becomes too dry, as long as there is water in the container.
